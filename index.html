@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+    <link href="css/vendor/bootstrap.css" rel="stylesheet" />
+    <link href="css/vendor/font-awesome.css" rel="stylesheet" />
+    <link href="css/vendor/slick.css" rel="stylesheet" />
+    <link href="css/vendor/slick-theme.css" rel="stylesheet" />
+    <link href="css/vendor/odometer-theme-default.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt=""/></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="lecturas.html">Lecturas</a></li>
+                    <li><a href="multimedia.html">Multimedia</a></li>
+                    <li><a href="actividades.html">Actividades</a></li>
+                    <li><a href="autores.html">Autores</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+
+    <div class="home-slider">
+        <div class="home-slider--wrapper">
+            <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/slider.jpg')">
+                    <div class="container">
+                        <span class="dot-dash">.</span>
+                        <p>El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes aspectos como el diseño gráfico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactividad, usabilidad, arquitectura de la información; interacción de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y la optimización de motores de búsqueda. A menudo muchas personas trabajan en equipos que cubren los diferentes aspectos del proceso de diseño, aunque existen algunos diseñadores independientes que trabajan solos.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/slider.jpg')">
+                    <div class="container">
+                        <span class="dot-dash">.</span>
+                        <p>El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes aspectos como el diseño gráfico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactividad, usabilidad, arquitectura de la información; interacción de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y la optimización de motores de búsqueda. A menudo muchas personas trabajan en equipos que cubren los diferentes aspectos del proceso de diseño, aunque existen algunos diseñadores independientes que trabajan solos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-slider--nav">
+            <div class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+            <div class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+        </div>
+        <div class="home-slider--anchor">
+            <span><i class="fa fa-anchor" aria-hidden="true"></i></span>
+        </div>
+    </div>
+
+        <section class="our-history">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                        <img src="assets/img/Monitor.png" alt="" />
+                    </div>
+                    <div class="col-md-7 col-sm-12 col-xs-12">
+                        <h2>Introduccion</h2>
+                        <p>El objetivo de esta guía es dar a conocer unos conocimientos de nivel básico/intermedio sobre el funcionamiento de Git, las diversas posibilidades que ofrece Github y por último aplicar todo lo aprendido de manera práctica siguiendo una metodología.</p>
+                        <p>Como introducción a este tipo de herramientas de manera global, pero también para conocer uno de los sistemas de control de versiones existentes en la actualidad que se ha popularizado tremendamente, gracias al sitio Github. Se trata de Git, el sistema de control de versiones más conocido y usado actualmente, que es el motor de Github. Al terminar su lectura entenderás qué es Git y qué es Github, dos cosas distintas que a veces resultan confusas de entender por las personas que están dando sus primeros pasos en el mundo del desarrollo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study">
+            <div class="container">
+                <h2>Objetos de Git</h2>
+                <p>Hay 4 tipos de objetos en git (el más importante a entender es el commit).</p>
+                <span class="dot-dash dark">.</span>
+            </div>
+            <div class="container">
+                <div class="case-study--sliders">
+                    <div class="case-study--left">
+                        <div class="case-study--left__textslider">
+                            <div>
+                                <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                                <h4>Blob</h4>
+                                <p>Se usa para almacenar datos de archivos, es generalmente un archivo.</p>
+                            </div>
+                            <div>
+                                <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                                <h4>Tree</h4>
+                                <p>Es, básicamente, como un directorio, hace referencia a un conjunto de otros trees y/o blobs (por ej. archivos y subdirectorios).</p>
+                            </div>
+                            <div>
+                                <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                                <h4>Commit</h4>
+                                <p>Apunta a un determinado tree, marcando como era en un momento determinado (quien no haya entendido lo que es un tree, sustituya la palabra tree por archivo). Contiene información sobre ese momento determinado, los cambios del autor desde el último commit, el commit anterior (conocido como parent), etc. También se puede entender un commit, de una forma más imprecisa y coloquial, como la modificación o el conjunto de modificaciones a uno o varios archivos del repositorio. Otra forma de entenderlo también sería, como una "foto" de uno o varios archivos del repositorio en un momento determinado.</p>
+                            </div>
+                            <div>
+                                <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                                <h4>Tag</h4>
+                                <p>Es una forma de marcar un commit como específico de alguna forma. Se usa normalmente para marcar algunos commits como releases específicos o algo destacable en esas lineas.</p>
+                            </div>
+                        </div>
+                        <div class="case-study--left__dots"></div>
+                    </div>
+                    <div class="case-study--right">
+                        <div class="case-study--right__imageslider">
+                            <div>
+                                <img src="assets/img/case.jpg" alt="" />
+                            </div>
+                            <div>
+                                <img src="assets/img/case.jpg" alt="" />
+                            </div>
+                            <div>
+                                <img src="assets/img/case.jpg" alt="" />
+                            </div>
+                            <div>
+                                <img src="assets/img/case.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <h2>Objetivos del curso Diseño de sitios web</h2>
+                 <p>El curso diseño de sitios web se divide en tres unidades, las cuales son: 
+                 1. Introduccion al diseño de sitios web, en esta vemos que es y como funciona el sistema de control de verciones GIT y el uso de GITHUB para sincronizar nuestros proyectos a travez de internet y asi poder trabajar de forma colaborativa, 2. HTML5 y 3. CSS3. En las unidades 2 y 3 veremos el uso de HTML y CSS para desarrollar paginas web.</p>
+                 <p> El OVI Diseño de sitios web esta elaborado con el fin de dar a conocer informacion basica sobre el manejo de herramientas enfocadas al desarrollo web como los son GIT, GITHUB, HTML5 Y CSS3. Esto se realizara a travez de lecturas, videos y actividades cortas y faciles de entender.</p>
+                 <p>El objetivo de este OVI es el de dar a conocer a los visitantes del sitio informacion basica sobre que es y como funciona GIT, GITHUB, HTML5 y CSS3, ademas de presentar unos tutoriales sobre su intalacion y uso.</p>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <h2>Tematicas referentes al curso</h2>
+                 <p>Para facilitarnos la vida existen sistemas como Git, Subversion, CVS, etc. que sirven para controlar las versiones de un software y que deberían ser una obligatoriedad en cualquier desarrollo. Nos ayudan en muchos ámbitos fundamentales, como podrían ser:
+                 Comparar el código de un archivo, de modo que podamos ver las diferencias entre versiones Restaurar versiones antiguas Fusionar cambios entre distintas versiones Trabajar con distintas ramas de un proyecto, por ejemplo la de producción y desarrollo En definitiva, con estos sistemas podemos crear y mantener repositorios de software que conservan todos los estados por el que va pasando la aplicación a lo largo del desarrollo del proyecto. Almacenan también las personas que enviaron los cambios, las ramas de desarrollo que fueron actualizadas o fusionadas, etc. Todo este mundo de utilidades para llevar el control del software resulta complejo en un principio, pero veremos que, a pesar de la complejidad, con Git podremos manejar los procesos de una manera bastante simple.</p>
+                 <p> Sistemas centralizados: En estos sistemas hay un servidor que mantiene el repositorio y en el que cada programador mantiene en local únicamente aquellos archivos con los que está trabajando en un momento dado. Yo necesito conectarme con el servidor donde está el código para poder trabajar y enviar cambios en el software que se está programando. Ese sistema centralizado es el único lugar donde está todo el código del proyecto de manera completa. Subversion o CVS son sistemas de control de versiones centralizados.</p>
+                 <p>Sistemas distribuidos: En este tipo de sistemas cada uno de los integrantes del equipo mantiene una copia local del repositorio completo. Al disponer de un repositorio local, puedo hacer commit (enviar cambios al sistema de control de versiones) en local, sin necesidad de estar conectado a Internet o cualquier otra red. En cualquier momento y en cualquier sitio donde esté puedo hacer un commit. Es cierto que es local de momento, luego podrás compartirlo con otras personas, pero el hecho de tener un repositorio completo me facilita ser autónomo y poder trabajar en cualquier situación. Git es un sistema de control de versiones distribuido.</p>
+        </section>
+        <section class="get-started">
+        </section>
+    </div>
+    <footer>
+                <div class="col-md-6">
+                    <p>Alejandro caicedo fierro</p>
+                    <p>Grupo 301122A_614</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        window.odometerOptions = {
+            format: '(,ddd)',
+        };
+    </script>
+    <script src="js/vendor/jquery-3.1.0.min.js"></script>
+    <script src="js/vendor/jquery.easing.min.js"></script>
+    <script src="js/vendor/tether.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/vendor/slick.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/odometer.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
